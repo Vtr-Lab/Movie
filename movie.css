@@ -1,0 +1,15 @@
+.movie
+{
+    height: 425px;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition:  all 500ms ease;
+    filter: saturate(0%);
+    transition:  all 500ms ease;
+    position: relative;
+    top: 200px;
+}   
+.movie:hover{
+    filter: saturate(100%);
+}
